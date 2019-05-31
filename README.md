@@ -1,6 +1,3 @@
-# test-express-graphql
-
-
 ## test result
 ```bash
  Director
