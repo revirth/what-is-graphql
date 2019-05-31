@@ -27,23 +27,7 @@
  - [stories from developer teams implementing GraphQL in production](https://www.graphql.com/case-studies/)
 
 
-## test result
-```bash
- Director
-    ✓ returns director with id=1 (469ms)
-    ✓ returns director and his/her movies
-    ✓ returns added director
-
-  Movie
-    ✓ returns movie with id=1
-    ✓ returns added movie
-
-
-  5 passing (532ms)
-```
-
-
-## ref
+### ref
 - https://github.com/chentsulin/awesome-graphql
 - https://adityasridhar.com/posts/what-is-graphql-and-how-to-use-it
 - https://adityasridhar.com/posts/what-is-a-mutation-in-graphql-and-how-to-use-it
