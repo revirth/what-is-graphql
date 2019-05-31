@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.8.0",
+    "graphql": "^14.3.1",
+    "lodash": "^4.17.11",
+    "mocha": "^6.1.4",
+    "morgan": "^1.9.1",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "mocha test/*.test.js"
+  },
+  "name": "test-graphql",
+  "version": "1.0.0",
+  "main": "data.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
