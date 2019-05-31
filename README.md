@@ -9,6 +9,7 @@
 
 ### Pros and Cons
 - https://stablekernel.com/advantages-and-disadvantages-of-graphql/
+
    :thumbsup:
     - clients have the ability to dictate exactly what they need from the server, and receive that data in a predictable way
     - ability to retrieve many resources in a single request 
