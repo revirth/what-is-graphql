@@ -1,0 +1,51 @@
+type Person {
+  id: Int!
+  name: String!
+  age: Int!
+  gender: String!
+}
+
+type Movie {
+  movie_id: Int!
+  title: String!
+  phase: String!
+  category_name: String!
+  release_year: Int!
+  running_time: Int!
+  rating_name: String!
+  disc_format_name: String!
+  number_discs: Int!
+  viewing_format_name: String!
+  aspect_ratio_name: String!
+  status: Int!
+  release_date: String!
+  budget: String!
+  gross: String!
+  time_stamp: String!
+}
+
+type YtsMovie {
+  id: Int!
+  title: String!
+  rating: Float!
+  summary: String!
+  synopsis: String!
+  language: String!
+  medium_cover_image: String!
+}
+
+type Query {
+  name: String!
+  people: [Person]!
+  person(id: Int!): Person
+  movies: [Movie]
+  movie(id: Int!): Movie
+  ytsMovies(limit: Int, rating: Float): [YtsMovie]
+  ytsMovie(id: Int!): YtsMovie!
+  ytsMovieSuggestions(id: Int!): [YtsMovie]
+}
+
+type Mutation {
+  addMovie(title: String!, time: String!): Movie!
+  deleteMovieById(id: Int!): Boolean!
+}
