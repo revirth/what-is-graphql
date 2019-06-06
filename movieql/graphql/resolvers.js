@@ -22,7 +22,9 @@ const resolvers = {
     movie: (_, { id }) => getMovieById(id),
 
     ytsMovies: (_, { limit, rating }) => getYtsMovies(limit, rating),
+
     ytsMovie: (_, { id }) => getYtsMovie(id),
+
     ytsMovieSuggestions: (_, { id }) => getYtsMovieSuggestions(id)
   },
   Mutation: {

@@ -27,11 +27,17 @@ type Movie {
 type YtsMovie {
   id: Int!
   title: String!
+  title_long: String!
   rating: Float!
   summary: String!
   synopsis: String!
   language: String!
+  small_cover_image: String!
   medium_cover_image: String!
+  large_cover_image: String!
+  genres: [String]!
+  description_intro: String!
+  imdb_code: String!
 }
 
 type Query {
