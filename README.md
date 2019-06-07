@@ -6,7 +6,15 @@
 
   A GraphQL query is a string that is sent to a server to be interpreted and fulfilled, which then returns JSON back to the client.
 
-
+### REST
+ - https://www.howtographql.com/basics/1-graphql-is-the-better-rest/
+#### Overfetching
+ - client downloads more information than is actually required in the app
+ 
+#### Underfetching
+ - endpoint doesn’t provide enough of the required information
+ - it needs to make one additional request per element to fetch the required data
+ 
 ### Pros and Cons
 - https://stablekernel.com/advantages-and-disadvantages-of-graphql/
 
