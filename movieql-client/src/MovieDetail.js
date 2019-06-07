@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const MovieDetail = ({ id, title, rating, poster, desc, genres, imdb }) => (
   <div className="detail">
@@ -18,7 +17,10 @@ const MovieDetail = ({ id, title, rating, poster, desc, genres, imdb }) => (
         <span>genres: {genres.join(", ")}</span>
         <span>
           <a href={`http://www.imdb.com/title/${imdb}`}>
-            <img src="https://cdn4.iconfinder.com/data/icons/socialmediaicons_v120/48/imdb.png" />
+            <img
+              alt={title}
+              src="https://cdn4.iconfinder.com/data/icons/socialmediaicons_v120/48/imdb.png"
+            />
           </a>
         </span>
       </h2>
