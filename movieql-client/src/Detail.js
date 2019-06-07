@@ -2,9 +2,9 @@ import React from "react";
 import { Query } from "react-apollo";
 import { withRouter } from "react-router-dom";
 import { DETAIL_PAGE } from "./queries";
-
 import Movie from "./Movie";
 import MovieDetail from "./MovieDetail";
+import Loading from "./Loading";
 
 const Detail = ({
   match: {
@@ -13,7 +13,7 @@ const Detail = ({
 }) => (
   <Query query={DETAIL_PAGE} variables={{ movieId: parseInt(movieId) }}>
     {({ loading, data, error }) => {
-      if (loading) return <div>Loading...</div>;
+      if (loading) return <Loading />;
       if (error) return <div>Something happens... {error}</div>;
 
       return (

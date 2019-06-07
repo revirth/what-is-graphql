@@ -3,11 +3,12 @@ import { Query } from "react-apollo";
 import { HOME_PAGE } from "./queries";
 import Movie from "./Movie";
 import "./Home.css";
+import Loading from "./Loading";
 
 const Home = () => (
   <Query query={HOME_PAGE}>
     {({ loading, data, error }) => {
-      if (loading) return <span>loading...</span>;
+      if (loading) return <Loading />;
       if (error) return <span>Something happens...{error}</span>;
 
       return (
