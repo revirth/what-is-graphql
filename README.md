@@ -6,6 +6,9 @@
 
   A GraphQL query is a string that is sent to a server to be interpreted and fulfilled, which then returns JSON back to the client.
 
+
+<a href="https://www.youtube.com/watch?v=783ccP__No8" target="_blank"><img src="https://img.youtube.com/vi/783ccP__No8/0.jpg" alt="GraphQL: The Documentary (Official Release)"></a>
+
 ### REST
  - https://www.howtographql.com/basics/1-graphql-is-the-better-rest/
 #### Overfetching
