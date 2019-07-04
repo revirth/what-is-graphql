@@ -32,6 +32,8 @@
        - If your query is unsuccessful, your response JSON will have a top-level `errors` key with associated error messages and stacktrace
      - lack of built-in caching support
      - complexity
+     - N+1 Problem - https://github.com/graphql/dataloader
+      
 
 ### Case
  - [How big companies are using GraphQL](https://syndicode.com/2019/01/01/how-big-companies-are-using-graphql/)
@@ -43,3 +45,5 @@
 - https://adityasridhar.com/posts/what-is-graphql-and-how-to-use-it
 - https://adityasridhar.com/posts/what-is-a-mutation-in-graphql-and-how-to-use-it
 - https://kolosek.com/testing-graphql-server/
+- [Grpahql 적용 시 고민해 볼 점](https://showerbugs.github.io/2018-04-20/Graphql-%EC%A0%81%EC%9A%A9%ED%95%A0-%EB%95%8C-%EA%B3%A0%EB%A0%A4%ED%95%A0-%EC%A0%90)
+     
