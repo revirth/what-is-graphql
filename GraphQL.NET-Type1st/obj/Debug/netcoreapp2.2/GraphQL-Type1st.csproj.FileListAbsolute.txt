@@ -1,0 +1,11 @@
+c:\Dev\CORE\GraphQL-Type1st\obj\Debug\netcoreapp2.2\GraphQL-Type1st.csprojAssemblyReference.cache
+c:\Dev\CORE\GraphQL-Type1st\obj\Debug\netcoreapp2.2\GraphQL-Type1st.csproj.CoreCompileInputs.cache
+c:\Dev\CORE\GraphQL-Type1st\obj\Debug\netcoreapp2.2\GraphQL-Type1st.AssemblyInfoInputs.cache
+c:\Dev\CORE\GraphQL-Type1st\obj\Debug\netcoreapp2.2\GraphQL-Type1st.AssemblyInfo.cs
+C:\Dev\CORE\GraphQL-Type1st\bin\Debug\netcoreapp2.2\GraphQL-Type1st.deps.json
+C:\Dev\CORE\GraphQL-Type1st\bin\Debug\netcoreapp2.2\GraphQL-Type1st.runtimeconfig.json
+C:\Dev\CORE\GraphQL-Type1st\bin\Debug\netcoreapp2.2\GraphQL-Type1st.runtimeconfig.dev.json
+c:\Dev\CORE\GraphQL-Type1st\bin\Debug\netcoreapp2.2\GraphQL-Type1st.dll
+c:\Dev\CORE\GraphQL-Type1st\bin\Debug\netcoreapp2.2\GraphQL-Type1st.pdb
+c:\Dev\CORE\GraphQL-Type1st\obj\Debug\netcoreapp2.2\GraphQL-Type1st.dll
+c:\Dev\CORE\GraphQL-Type1st\obj\Debug\netcoreapp2.2\GraphQL-Type1st.pdb

@@ -1,0 +1,11 @@
+C:\Dev\Core\GraphQL-Schema1stNested\bin\Debug\netcoreapp2.2\GraphQL-Schema1stNested.deps.json
+C:\Dev\Core\GraphQL-Schema1stNested\bin\Debug\netcoreapp2.2\GraphQL-Schema1stNested.runtimeconfig.json
+C:\Dev\Core\GraphQL-Schema1stNested\bin\Debug\netcoreapp2.2\GraphQL-Schema1stNested.runtimeconfig.dev.json
+c:\Dev\Core\GraphQL-Schema1stNested\bin\Debug\netcoreapp2.2\GraphQL-Schema1stNested.dll
+c:\Dev\Core\GraphQL-Schema1stNested\bin\Debug\netcoreapp2.2\GraphQL-Schema1stNested.pdb
+c:\Dev\Core\GraphQL-Schema1stNested\obj\Debug\netcoreapp2.2\GraphQL-Schema1stNested.csprojAssemblyReference.cache
+c:\Dev\Core\GraphQL-Schema1stNested\obj\Debug\netcoreapp2.2\GraphQL-Schema1stNested.csproj.CoreCompileInputs.cache
+c:\Dev\Core\GraphQL-Schema1stNested\obj\Debug\netcoreapp2.2\GraphQL-Schema1stNested.AssemblyInfoInputs.cache
+c:\Dev\Core\GraphQL-Schema1stNested\obj\Debug\netcoreapp2.2\GraphQL-Schema1stNested.AssemblyInfo.cs
+c:\Dev\Core\GraphQL-Schema1stNested\obj\Debug\netcoreapp2.2\GraphQL-Schema1stNested.dll
+c:\Dev\Core\GraphQL-Schema1stNested\obj\Debug\netcoreapp2.2\GraphQL-Schema1stNested.pdb
