@@ -1,0 +1,11 @@
+C:\Dev\CORE\HelloGraphQL\bin\Debug\netcoreapp2.2\HelloGraphQL.deps.json
+C:\Dev\CORE\HelloGraphQL\bin\Debug\netcoreapp2.2\HelloGraphQL.runtimeconfig.json
+C:\Dev\CORE\HelloGraphQL\bin\Debug\netcoreapp2.2\HelloGraphQL.runtimeconfig.dev.json
+c:\Dev\CORE\HelloGraphQL\bin\Debug\netcoreapp2.2\HelloGraphQL.dll
+c:\Dev\CORE\HelloGraphQL\bin\Debug\netcoreapp2.2\HelloGraphQL.pdb
+c:\Dev\CORE\HelloGraphQL\obj\Debug\netcoreapp2.2\HelloGraphQL.csprojAssemblyReference.cache
+c:\Dev\CORE\HelloGraphQL\obj\Debug\netcoreapp2.2\HelloGraphQL.csproj.CoreCompileInputs.cache
+c:\Dev\CORE\HelloGraphQL\obj\Debug\netcoreapp2.2\HelloGraphQL.AssemblyInfoInputs.cache
+c:\Dev\CORE\HelloGraphQL\obj\Debug\netcoreapp2.2\HelloGraphQL.AssemblyInfo.cs
+c:\Dev\CORE\HelloGraphQL\obj\Debug\netcoreapp2.2\HelloGraphQL.dll
+c:\Dev\CORE\HelloGraphQL\obj\Debug\netcoreapp2.2\HelloGraphQL.pdb
