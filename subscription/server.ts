@@ -1,7 +1,5 @@
 import { GraphQLServer } from "graphql-yoga";
-// import { prisma } from "./generated/prisma-client";
-
-// Instance PubSub (publications and subscriptions)
+import { PubSub } from "graphql-subscriptions";
 
 const typeDefs = `
   type Message{
@@ -21,7 +19,10 @@ const typeDefs = `
 
 import morgan = require("morgan");
 
-const messages = [{ id: 0, text: "init message" }];
+const pubsub = new PubSub();
+
+// default messages
+const messages = [{ id: 0, text: "::: Welcome to minitalk :::" }];
 
 const resolvers = {
   Query: {
@@ -34,6 +35,9 @@ const resolvers = {
       //   text
       // })
       var message = { id: messages.length, text: text };
+
+      pubsub.publish("newMessage", message);
+
       messages.push(message);
       return message;
     }
@@ -41,7 +45,7 @@ const resolvers = {
   Subscription: {
     newMessage: {
       // subscribe: () => prisma.$subscribe.message().node(),
-      subscribe: async () => messages,
+      subscribe: async () => pubsub.asyncIterator("newMessage"),
       resolve: payload => payload
     }
   }
