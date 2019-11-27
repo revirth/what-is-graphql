@@ -1,5 +1,7 @@
+require("dotenv-expand")(require("dotenv").config());
 import { GraphQLServer } from "graphql-yoga";
 import { PubSub } from "graphql-subscriptions";
+import axios from "axios";
 
 const typeDefs = `
   type Message{
@@ -30,14 +32,30 @@ const resolvers = {
     messages: () => messages.sort((a, b) => b.id - a.id)
   },
   Mutation: {
-    sendMessage: (_, { text }) => {
+    sendMessage: async (_, { text }) => {
       // prisma.createMessage({
       //   text
       // })
-      var message = { id: messages.length, text: text };
+      var message = {
+        id: messages.length,
+        text: text
+      };
 
+      // publish graphql subscription
       pubsub.publish("newMessage", message);
 
+      // https://docs.expo.io/versions/latest/guides/push-notifications/
+      // send notification
+      const { data } = await axios.post(
+        "https://exp.host/--/api/v2/push/send",
+        {
+          to: process.env.NOTIFICATION_TOKEN,
+          title: "New Message",
+          body: text
+        }
+      ); // TODO: check with a real phone
+
+      // store message
       messages.push(message);
       return message;
     }
